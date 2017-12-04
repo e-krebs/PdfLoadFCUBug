@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="PdfLoadFCUBug.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PdfLoadFCUBug"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Orientation="Vertical" Background="White">
+        <StackPanel Orientation="Horizontal">
+            <Button Tapped="Start_OnTapped" Margin="20,20,20,20">START</Button>
+            <Button Tapped="Delete_OnTapped" Margin="20,20,20,20">DELETE File</Button>
+        </StackPanel>
+        <TextBlock Margin="20" x:Name="MainTextBlock"></TextBlock>
+    </StackPanel>
+</Page>
